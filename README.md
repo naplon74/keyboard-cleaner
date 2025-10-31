@@ -1,4 +1,4 @@
-# KeyboardCleaner
+# Keyboard Cleaner
 
 A minimal, modern Python app to temporarily lock your keyboard and mouse for cleaning or other purposes. Unlock with a secure key combination.
 
@@ -9,7 +9,7 @@ A minimal, modern Python app to temporarily lock your keyboard and mouse for cle
 - Prevents accidental unlocks
 - Cross-platform (Windows recommended)
 
-## Usage
+## Usage (Or install V1.0.0)
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
