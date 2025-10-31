@@ -34,9 +34,4 @@ A minimal, modern Python app to temporarily lock your keyboard and mouse for cle
 - keyboard
 - mouse
 
-## Notes
-- On Windows, you may need to run as administrator for full keyboard/mouse blocking.
-- Use at your own risk! Always test the unlock combo before cleaning.
-
-## License
-MIT
+## Linux port comming soon
