@@ -4,9 +4,13 @@
    
 ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
- 
+![VirusTotal Detection](https://img.shields.io/badge/VirusTotal-4%2F70%20detected-yellow)
+
 A minimal, modern Python app to temporarily lock your keyboard and mouse for cleaning or other purposes. Unlock with a secure key combination. (Windows Only)
 </div>
+
+## Full VirusTotal Report
+[![VirusTotal](https://a11ybadges.com/badge?logo=virustotal)](https://www.virustotal.com/gui/file/3ba944bbb49ab4e8191dd075d589a1bb315286613e1cea560f79e668beac1798)
 
 ## Features
 - Locks all keyboard and mouse input
