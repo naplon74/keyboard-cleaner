@@ -21,10 +21,7 @@ A minimal, modern Python app to temporarily lock your keyboard and mouse for cle
 - Prevents accidental unlocks
 - Cross-platform
 
-## Usage (Or install V1.0.0)
-
-> [!IMPORTANT]
-> Ignore if you don't understand.
+## Usage
 
 1. Install dependencies:
    ```bash
@@ -45,9 +42,6 @@ A minimal, modern Python app to temporarily lock your keyboard and mouse for cle
 - Lock input for focus or security
 
 ## Requirements
-
-> [!IMPORTANT]
-> Ignore if you don't understand.
 
 - Python 3.8+
 - PyQt5
