@@ -1,4 +1,4 @@
-# ⌨️ Keyboard cleaner
+# ⌨️ Keyboard Cleaner
 
 <div align="center">
    
