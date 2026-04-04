@@ -18,8 +18,6 @@ combo_hold_start = None
 
 def block_all_keys(e):
     global combo_pressed, ctrl_held, alt_held, u_held, combo_hold_start
-    # Debug print removed
-    # Track Ctrl, Alt, and U state independently
     if e.name == 'ctrl':
         ctrl_held = e.event_type == 'down'
     if e.name == 'alt':
@@ -27,16 +25,14 @@ def block_all_keys(e):
     if e.name == 'u':
         u_held = e.event_type == 'down'
 
-    # Require combo to be held for 3 seconds
     if ctrl_held and alt_held and u_held:
         if combo_hold_start is None:
             combo_hold_start = time.time()
         elif not combo_pressed and (time.time() - combo_hold_start >= 3):
             combo_pressed = True
-        return True  # Do not suppress unlock combo
+        return True 
     else:
         combo_hold_start = None
-    # Suppress all other keys
     return False
 
 def block_mouse_move(e):
@@ -69,13 +65,10 @@ class LockScreen(QWidget):
         pass
 
     def closeEvent(self, event):
-        # Prevent window from being closed
         event.ignore()
 
 def block_input():
-    # Block all keys (combo detection is handled in block_all_keys)
     keyboard.hook(block_all_keys, suppress=True)
-    # Block mouse movement and clicks
     mouse.hook(block_mouse_move)
     mouse.on_button(block_mouse_click, buttons=('left', 'right', 'middle'), types=('down', 'up'))
 
@@ -87,23 +80,18 @@ def unblock_input():
 
 def listen_for_unlock(app):
     global unlocked, combo_pressed
-    # Only unlock via combo
     while not unlocked:
         if combo_pressed:
             unblock_input()
             app.quit()
             break
         time.sleep(0.1)
-
+        
 def main():
     app = QApplication(sys.argv)
     lock_screen = LockScreen()
     lock_screen.showFullScreen()
-    
-    # Start blocking input
     threading.Thread(target=block_input, daemon=True).start()
-    
-    # Start listening for unlock (not daemon so it keeps running)
     unlock_thread = threading.Thread(target=listen_for_unlock, args=(app,))
     unlock_thread.start()
     
