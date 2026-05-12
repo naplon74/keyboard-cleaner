@@ -4,7 +4,7 @@
    
 ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![VirusTotal Detection](https://img.shields.io/badge/VirusTotal-4%2F70%20detected-yellow)
+![VirusTotal Detection](https://img.shields.io/badge/VirusTotal-2%2F70%20detected-yellow)
 
 A minimal, modern Python app to temporarily lock your keyboard and mouse for cleaning or other purposes. Unlock with a secure key combination. (Windows Only)
 </div>
