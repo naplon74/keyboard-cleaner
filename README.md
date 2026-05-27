@@ -1,6 +1,6 @@
 <div align="center">
   <img src="icon.png" alt="logo" width="250" />
-<h3>A minimal, modern Python app to temporarily lock your keyboard and mouse for cleaning or other purposes. Unlock with a secure key combination. (Windows Only)</h3>
+<h3>Minimal modern Python app to temporarily lock your keyboard and mouse for cleaning. Unlock with a secure key combination. (Windows Only)</h3>
 
 ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -41,3 +41,5 @@
 ## Why?
 - Clean your keyboard and mouse without accidental input.
 - Lock input for focus or security.
+
+**A Linux version is currently being worked, tho it is not as easy at it is on Windows.**
