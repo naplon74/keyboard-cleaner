@@ -42,4 +42,4 @@
 - Clean your keyboard and mouse without accidental input.
 - Lock input for focus or security.
 
-**A Linux version is currently being worked, tho it is not as easy at it is on Windows.**
+**A Linux version is currently being worked on, tho it is not as easy at it is on Windows.**
