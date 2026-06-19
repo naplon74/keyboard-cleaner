@@ -5,4 +5,4 @@ debug: false
 blur: false
 
 # Background image path (optional) needs absolute path like C:\\Users\\Naplon\\Desktop\\Cleaner\\Background.png
-image_path: "C:\\Users\\Lenovo\\Desktop\\Code\\KeyboardCleaner\\bg.png"
+image_path: ""
