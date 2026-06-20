@@ -12,6 +12,8 @@
 
 ![Screenshot](assets/cleaner.png)
 
+> [!IMPORTANT]
+> This is the Windows version. Linux version can be found [here](https://github.com/naplon74/gnome-keyboard-cleaner).
 
 ## Full VirusTotal Report
 [![VirusTotal](https://a11ybadges.com/badge?logo=virustotal)](https://www.virustotal.com/gui/file/3ba944bbb49ab4e8191dd075d589a1bb315286613e1cea560f79e668beac1798)
